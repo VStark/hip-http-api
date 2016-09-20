@@ -31,7 +31,7 @@ namespace HIPHttpApi
                         Variant = infoResponse.Result.Variant,
                         SerialNumber = infoResponse.Result.SerialNumber,
                         HwVersion = infoResponse.Result.HwVersion,
-                        SwVersion = infoResponse.Result.SwVersion,
+                        SwVersion = new Version(infoResponse.Result.SwVersion),
                         BuildType = infoResponse.Result.BuildType,
                         DeviceName = infoResponse.Result.DeviceName
                     };
