@@ -61,6 +61,16 @@ namespace HIPHttpApiTest.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Caps {
+            get {
+                object obj = ResourceManager.GetObject("Caps", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
         ///&lt;DeviceDatabase Version=&quot;7&quot;&gt;
         ///  &lt;Network&gt;
@@ -90,6 +100,26 @@ namespace HIPHttpApiTest.Properties {
         internal static byte[] Firmware {
             get {
                 object obj = ResourceManager.GetObject("Firmware", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Pull {
+            get {
+                object obj = ResourceManager.GetObject("Pull", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Subscribe {
+            get {
+                object obj = ResourceManager.GetObject("Subscribe", resourceCulture);
                 return ((byte[])(obj));
             }
         }

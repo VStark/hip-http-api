@@ -94,7 +94,7 @@ namespace HIPHttpApiTest
             var response = api.System.Restart();
             if (response.Success)
             {
-                Assert.True(true);
+                Assert.IsType<SystemRestartResponse>(response);
             }
             else
             {
@@ -146,7 +146,7 @@ namespace HIPHttpApiTest
             var response = api.System.FirmwareApply();
             if (response.Success)
             {
-                Assert.True(true);
+                Assert.IsType<SystemFirmwareApplyResponse>(response);
             }
             else
             {
@@ -197,7 +197,7 @@ namespace HIPHttpApiTest
             var response = api.System.ConfigUpload(Properties.Resources.Config);
             if (response.Success)
             {
-                Assert.True(true);
+                Assert.IsType<SystemConfigUploadResponse>(response);
             }
             else
             {
@@ -222,7 +222,7 @@ namespace HIPHttpApiTest
             var response = api.System.ConfigFactoryReset();
             if (response.Success)
             {
-                Assert.True(true);
+                Assert.IsType<SystemConfigFactoryResetResponse>(response);
             }
             else
             {
@@ -273,7 +273,7 @@ namespace HIPHttpApiTest
             var response = api.System.PcapRestart();
             if (response.Success)
             {
-                Assert.True(true);
+                Assert.IsType<SystemPcapRestartResponse>(response);
             }
             else
             {
@@ -298,7 +298,7 @@ namespace HIPHttpApiTest
             var response = api.System.PcapStop();
             if (response.Success)
             {
-                Assert.True(true);
+                Assert.IsType<SystemPcapStopResponse>(response);
             }
             else
             {
