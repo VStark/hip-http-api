@@ -7,7 +7,7 @@ namespace HIPHttpApi
 {
     public class SystemFirmwareResponse : IResponse
     {
-        public SystemFirmwareResponse(string version, bool downgrade)
+        public SystemFirmwareResponse(Version version, bool downgrade)
         {
             _version = version;
             _downgrade = downgrade;
@@ -16,8 +16,8 @@ namespace HIPHttpApi
         private bool _downgrade;
         public bool Downgrade { get { return _downgrade; } }
 
-        private string _version;
-        public string Version { get { return _version; } }
+        private Version _version;
+        public Version Version { get { return _version; } }
 
         public bool Success
         {

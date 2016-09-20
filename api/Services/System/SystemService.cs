@@ -116,7 +116,7 @@ namespace HIPHttpApi
 
                 if (firmwareResponse.Success)
                 {
-                    response = new SystemFirmwareResponse(firmwareResponse.Result.Version, firmwareResponse.Result.Downgrade);
+                    response = new SystemFirmwareResponse(new Version(firmwareResponse.Result.Version), firmwareResponse.Result.Downgrade);
                 }
                 else
                 {

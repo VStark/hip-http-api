@@ -54,6 +54,7 @@
     <Compile Include="Services\Common\Error\ErrorResponse.cs" />
     <Compile Include="Services\Common\Error\Json\ErrorResponseJson.cs" />
     <Compile Include="Services\Common\Utils.cs" />
+    <Compile Include="Services\Common\Version.cs" />
     <Compile Include="Services\Interfaces\IEventArgs.cs" />
     <Compile Include="Services\Logging\Common\LoggingDefinitions.cs" />
     <Compile Include="Services\Logging\Reponse\Entity\LoggingEventEntity.cs" />
