@@ -71,6 +71,30 @@
     <Compile Include="Services\Logging\Reponse\LoggingPullResponse.cs" />
     <Compile Include="Services\Logging\Reponse\LoggingSubscribeResponse.cs" />
     <Compile Include="Services\Logging\Reponse\LoggingUnsubscribeResponse.cs" />
+    <Compile Include="Services\System\Common\SystemDefinitions.cs" />
+    <Compile Include="Services\System\Interfaces\ISystemService.cs" />
+    <Compile Include="Services\System\Json\ConfigFactoryResetResponseJson.cs" />
+    <Compile Include="Services\System\Json\FirmwareApplyResponseJson.cs" />
+    <Compile Include="Services\System\Json\FirmwareResponseJson.cs" />
+    <Compile Include="Services\System\Json\InfoResponseJson.cs" />
+    <Compile Include="Services\System\Json\PcapStopResponseJson.cs" />
+    <Compile Include="Services\System\Json\PcapRestartResponseJson.cs" />
+    <Compile Include="Services\System\Json\RestartResponseJson.cs" />
+    <Compile Include="Services\System\Json\StatusResponseJson.cs" />
+    <Compile Include="Services\System\Json\ConfigUploadResponseJson.cs" />
+    <Compile Include="Services\System\Response\Entity\SystemInfoEntity.cs" />
+    <Compile Include="Services\System\Response\SystemConfigDownloadResponse.cs" />
+    <Compile Include="Services\System\Response\SystemConfigFactoryResetResponse.cs" />
+    <Compile Include="Services\System\Response\SystemConfigPcapResponse.cs" />
+    <Compile Include="Services\System\Response\SystemConfigUploadResponse.cs" />
+    <Compile Include="Services\System\Response\SystemFirmwareApplyResponse.cs" />
+    <Compile Include="Services\System\Response\SystemFirmwareResponse.cs" />
+    <Compile Include="Services\System\Response\SystemInfoResponse.cs" />
+    <Compile Include="Services\System\Response\SystemPcapResponse.cs" />
+    <Compile Include="Services\System\Response\SystemPcapStopResponse.cs" />
+    <Compile Include="Services\System\Response\SystemRestartResponse.cs" />
+    <Compile Include="Services\System\Response\SystemStatusResponse.cs" />
+    <Compile Include="Services\System\SystemService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\Audio\" />
@@ -80,7 +104,6 @@
     <Folder Include="Services\IO\" />
     <Folder Include="Services\PhoneCall\" />
     <Folder Include="Services\Switch\" />
-    <Folder Include="Services\System\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
