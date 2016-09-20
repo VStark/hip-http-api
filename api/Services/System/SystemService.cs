@@ -260,7 +260,7 @@ namespace HIPHttpApi
 
                 if (response == null)
                 {
-                    response = new SystemConfigPcapResponse(result);
+                    response = new SystemPcapResponse(result);
                 }
 
                 return response;
@@ -282,7 +282,7 @@ namespace HIPHttpApi
 
                 if (pcapResponse.Success)
                 {
-                    response = new SystemPcapResponse();
+                    response = new SystemPcapRestartResponse();
                 }
                 else
                 {

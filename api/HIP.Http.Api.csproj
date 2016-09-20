@@ -86,12 +86,12 @@
     <Compile Include="Services\System\Response\Entity\SystemInfoEntity.cs" />
     <Compile Include="Services\System\Response\SystemConfigDownloadResponse.cs" />
     <Compile Include="Services\System\Response\SystemConfigFactoryResetResponse.cs" />
-    <Compile Include="Services\System\Response\SystemConfigPcapResponse.cs" />
+    <Compile Include="Services\System\Response\SystemPcapResponse.cs" />
     <Compile Include="Services\System\Response\SystemConfigUploadResponse.cs" />
     <Compile Include="Services\System\Response\SystemFirmwareApplyResponse.cs" />
     <Compile Include="Services\System\Response\SystemFirmwareResponse.cs" />
     <Compile Include="Services\System\Response\SystemInfoResponse.cs" />
-    <Compile Include="Services\System\Response\SystemPcapResponse.cs" />
+    <Compile Include="Services\System\Response\SystemPcapRestartResponse.cs" />
     <Compile Include="Services\System\Response\SystemPcapStopResponse.cs" />
     <Compile Include="Services\System\Response\SystemRestartResponse.cs" />
     <Compile Include="Services\System\Response\SystemStatusResponse.cs" />
