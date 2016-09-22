@@ -72,7 +72,7 @@
     <Compile Include="Services\Logging\Reponse\LoggingCapsResponse.cs" />
     <Compile Include="Services\Logging\Reponse\LoggingEventArgs.cs" />
     <Compile Include="Services\Logging\Interfaces\ILoggingService.cs" />
-    <Compile Include="Services\Logging\Interfaces\ILoggingResponse.cs" />
+    <Compile Include="Services\Interfaces\IResponse.cs" />
     <Compile Include="Services\Logging\Json\CapsResponseJson.cs" />
     <Compile Include="Services\Logging\Json\UnsubscribeJson.cs" />
     <Compile Include="Services\Logging\LoggingService.cs" />
