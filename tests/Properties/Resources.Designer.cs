@@ -137,6 +137,26 @@ namespace HIPHttpApiTest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] SwitchCaps {
+            get {
+                object obj = ResourceManager.GetObject("SwitchCaps", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] SwitchStatus {
+            get {
+                object obj = ResourceManager.GetObject("SwitchStatus", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] SystemInfo {
             get {
                 object obj = ResourceManager.GetObject("SystemInfo", resourceCulture);

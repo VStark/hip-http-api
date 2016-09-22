@@ -134,7 +134,13 @@
     <value>..\services\logging\data\subscribe.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Success" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\services\system\data\success.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\services\common\data\success.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SwitchCaps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\services\switch\data\switchcaps.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SwitchStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\services\switch\data\switchstatus.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SystemInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\services\system\data\systeminfo.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
