@@ -16,17 +16,17 @@ namespace HIPHttpApi
     {
         internal struct Result
         {
-            internal List<Switch> Switches { get; set; }
+            public List<Switch> Switches { get; set; }
+        }
 
-            internal struct Switch
-            {
-                [JsonProperty("switch")]
-                public uint Id { get; set; }
-                public bool Enabled { get; set; }
-                public string Mode { get; set; }
-                public uint SwitchOnDuration { get; set; }
-                public string Type { get; set; }
-            }
+        internal struct Switch
+        {
+            [JsonProperty("switch")]
+            public uint Id { get; set; }
+            public bool Enabled { get; set; }
+            public string Mode { get; set; }
+            public uint SwitchOnDuration { get; set; }
+            public string Type { get; set; }
         }
     }
 }
