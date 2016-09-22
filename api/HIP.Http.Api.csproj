@@ -72,6 +72,17 @@
     <Compile Include="Services\Logging\Reponse\LoggingPullResponse.cs" />
     <Compile Include="Services\Logging\Reponse\LoggingSubscribeResponse.cs" />
     <Compile Include="Services\Logging\Reponse\LoggingUnsubscribeResponse.cs" />
+    <Compile Include="Services\Switch\Common\SwitchDefinitions.cs" />
+    <Compile Include="Services\Switch\Interfaces\ISwitchService.cs" />
+    <Compile Include="Services\Switch\Json\SwitchCapsResponseJson.cs" />
+    <Compile Include="Services\Switch\Json\SwitchCtrlResponseJson.cs" />
+    <Compile Include="Services\Switch\Json\SwitchStatusResponseJson.cs" />
+    <Compile Include="Services\Switch\Response\Entity\SwitchEntity.cs" />
+    <Compile Include="Services\Switch\Response\Entity\SwitchStatusEntity.cs" />
+    <Compile Include="Services\Switch\Response\SwitchCapsResponse.cs" />
+    <Compile Include="Services\Switch\Response\SwitchCtrlResponse.cs" />
+    <Compile Include="Services\Switch\Response\SwitchStatusResponse.cs" />
+    <Compile Include="Services\Switch\SwitchService.cs" />
     <Compile Include="Services\System\Common\SystemDefinitions.cs" />
     <Compile Include="Services\System\Interfaces\ISystemService.cs" />
     <Compile Include="Services\System\Json\ConfigFactoryResetResponseJson.cs" />
@@ -104,7 +115,6 @@
     <Folder Include="Services\Email\" />
     <Folder Include="Services\IO\" />
     <Folder Include="Services\PhoneCall\" />
-    <Folder Include="Services\Switch\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
