@@ -127,6 +127,12 @@
   <data name="Firmware" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\services\system\data\firmware.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="IOCaps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\services\io\data\iocaps.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IOStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\services\io\data\iostatus.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Pull" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\services\logging\data\pull.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
