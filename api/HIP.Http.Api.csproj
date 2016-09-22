@@ -56,6 +56,17 @@
     <Compile Include="Services\Common\Utils.cs" />
     <Compile Include="Services\Common\Version.cs" />
     <Compile Include="Services\Interfaces\IEventArgs.cs" />
+    <Compile Include="Services\IO\Common\IODefinitions.cs" />
+    <Compile Include="Services\IO\Interfaces\IIOService.cs" />
+    <Compile Include="Services\IO\IOService.cs" />
+    <Compile Include="Services\IO\Json\IOCapsResponseJson.cs" />
+    <Compile Include="Services\IO\Json\IOCtrlResponseJson.cs" />
+    <Compile Include="Services\IO\Json\IOStatusResponseJson.cs" />
+    <Compile Include="Services\IO\Response\Entity\IOPortEntity.cs" />
+    <Compile Include="Services\IO\Response\Entity\IOPortStatusEntity.cs" />
+    <Compile Include="Services\IO\Response\IOCapsResponse.cs" />
+    <Compile Include="Services\IO\Response\IOCtrlResponse.cs" />
+    <Compile Include="Services\IO\Response\IOStatusResponse.cs" />
     <Compile Include="Services\Logging\Common\LoggingDefinitions.cs" />
     <Compile Include="Services\Logging\Reponse\Entity\LoggingEventEntity.cs" />
     <Compile Include="Services\Logging\Reponse\LoggingCapsResponse.cs" />
@@ -113,7 +124,6 @@
     <Folder Include="Services\Camera\" />
     <Folder Include="Services\Display\" />
     <Folder Include="Services\Email\" />
-    <Folder Include="Services\IO\" />
     <Folder Include="Services\PhoneCall\" />
   </ItemGroup>
   <ItemGroup>
