@@ -7,8 +7,8 @@ namespace HIPHttpApi
 {
     public interface IIOService : IService
     {
-        IResponse Caps(string port);
-        IResponse Status(string port);
+        IResponse Caps(string port = null);
+        IResponse Status(string port = null);
         IResponse Ctrl(string port, IOPortAction action, string response);
     }
 }

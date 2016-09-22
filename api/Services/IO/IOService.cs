@@ -13,7 +13,7 @@ namespace HIPHttpApi
             _client = client;
         }
 
-        public IResponse Caps(string port)
+        public IResponse Caps(string port = null)
         {
             try
             {
@@ -49,7 +49,7 @@ namespace HIPHttpApi
             }
         }
 
-        public IResponse Status(string port)
+        public IResponse Status(string port = null)
         {
             try
             {
