@@ -7,11 +7,18 @@ namespace HIPHttpApi
 {
     public class HIPApi : IApi
     {
-        public HIPApi(ILoggingService logging = null, ISystemService system = null, ISwitchService switchService = null)
+        public HIPApi(ILoggingService logging = null, ISystemService system = null, ISwitchService switchService = null, IIOService io = null)
         {
             _logging = logging;
             _system = system;
             _switch = switchService;
+            _io = io;
+        }
+
+        private IIOService _io;
+        public IIOService IO
+        {
+            get { return _io; }
         }
 
         private ISwitchService _switch;
