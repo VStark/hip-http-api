@@ -37,6 +37,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Services\Camera\CameraService.cs" />
+    <Compile Include="Services\Camera\Common\CameraDefinitions.cs" />
+    <Compile Include="Services\Camera\Interfaces\ICameraService.cs" />
+    <Compile Include="Services\Camera\Json\CameraCapsResponseJson.cs" />
+    <Compile Include="Services\Camera\Response\CameraCapsResponse.cs" />
+    <Compile Include="Services\Camera\Response\CameraSnapshotResponse.cs" />
+    <Compile Include="Services\Camera\Response\Entity\JpegResolutionEntity.cs" />
     <Compile Include="Services\Common\Definitions.cs" />
     <Compile Include="Implementation\HIPApi.cs" />
     <Compile Include="Implementation\HttpClient.cs" />
@@ -136,7 +144,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\Audio\" />
-    <Folder Include="Services\Camera\" />
     <Folder Include="Services\Display\" />
     <Folder Include="Services\Email\" />
   </ItemGroup>
