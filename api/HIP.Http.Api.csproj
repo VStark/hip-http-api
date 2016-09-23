@@ -45,6 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Services\Audio\AudioService.cs" />
+    <Compile Include="Services\Audio\Common\AudioDefinitions.cs" />
+    <Compile Include="Services\Audio\Interfaces\IAudioService.cs" />
+    <Compile Include="Services\Audio\Json\AudioTestResponseJson.cs" />
+    <Compile Include="Services\Audio\Response\AudioTestResponse.cs" />
     <Compile Include="Services\Camera\CameraService.cs" />
     <Compile Include="Services\Camera\Common\CameraDefinitions.cs" />
     <Compile Include="Services\Camera\Interfaces\ICameraService.cs" />
@@ -151,7 +156,6 @@
     <Compile Include="Services\System\SystemService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\Audio\" />
     <Folder Include="Services\Email\" />
   </ItemGroup>
   <ItemGroup>

@@ -7,7 +7,7 @@ namespace HIPHttpApi
 {
     public class HIPApi : IApi
     {
-        public HIPApi(ILoggingService logging = null, ISystemService system = null, ISwitchService switchService = null, IIOService io = null, IPhoneCallService phoneCall = null, ICameraService camera = null, IDisplayService display = null)
+        public HIPApi(ILoggingService logging = null, ISystemService system = null, ISwitchService switchService = null, IIOService io = null, IPhoneCallService phoneCall = null, ICameraService camera = null, IDisplayService display = null, IAudioService audio = null)
         {
             _logging = logging;
             _system = system;
@@ -16,6 +16,13 @@ namespace HIPHttpApi
             _phoneCall = phoneCall;
             _camera = camera;
             _display = display;
+            _audio = audio;
+        }
+
+        private IAudioService _audio;
+        public IAudioService Audio
+        {
+            get { return _audio; }
         }
 
         private IDisplayService _display;
