@@ -75,6 +75,7 @@
     </Compile>
     <Compile Include="Services\IO\IOTest.cs" />
     <Compile Include="Services\Logging\LoggingTest.cs" />
+    <Compile Include="Services\PhoneCall\PhoneCallTest.cs" />
     <Compile Include="Services\Switch\SwitchTest.cs" />
     <Compile Include="Services\System\SystemTest.cs" />
     <Compile Include="Utils\AppConfiguration.cs" />
@@ -91,6 +92,9 @@
     <None Include="Services\Logging\Data\Caps.json" />
     <None Include="Services\Logging\Data\Pull.json" />
     <None Include="Services\Logging\Data\Subscribe.json" />
+    <None Include="Services\PhoneCall\Data\CallDial.json" />
+    <None Include="Services\PhoneCall\Data\CallStatus.json" />
+    <None Include="Services\PhoneCall\Data\PhoneStatus.json" />
     <None Include="Services\Switch\Data\SwitchCaps.json" />
     <None Include="Services\Switch\Data\SwitchStatus.json" />
     <None Include="Services\System\Data\Firmware.json" />

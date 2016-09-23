@@ -63,6 +63,26 @@ namespace HIPHttpApiTest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] CallDial {
+            get {
+                object obj = ResourceManager.GetObject("CallDial", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] CallStatus {
+            get {
+                object obj = ResourceManager.GetObject("CallStatus", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] Caps {
             get {
                 object obj = ResourceManager.GetObject("Caps", resourceCulture);
@@ -120,6 +140,16 @@ namespace HIPHttpApiTest.Properties {
         internal static byte[] IOStatus {
             get {
                 object obj = ResourceManager.GetObject("IOStatus", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] PhoneStatus {
+            get {
+                object obj = ResourceManager.GetObject("PhoneStatus", resourceCulture);
                 return ((byte[])(obj));
             }
         }

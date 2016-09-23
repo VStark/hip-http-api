@@ -118,6 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CallDial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\services\phonecall\data\calldial.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CallStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\services\phonecall\data\callstatus.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Caps" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\services\logging\data\caps.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -132,6 +138,9 @@
   </data>
   <data name="IOStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\services\io\data\iostatus.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PhoneStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\services\phonecall\data\phonestatus.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Pull" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\services\logging\data\pull.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
