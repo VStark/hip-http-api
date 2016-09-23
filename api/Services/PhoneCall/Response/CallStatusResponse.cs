@@ -13,7 +13,7 @@ namespace HIPHttpApi
         }
 
         IEnumerable<SessionEntity> _sessions;
-        public IEnumerable<SessionEntity> Sessinos { get { return _sessions; } }
+        public IEnumerable<SessionEntity> Sessions { get { return _sessions; } }
 
         public bool Success
         {
