@@ -63,6 +63,14 @@
     <Compile Include="Services\Common\Error\Json\ErrorResponseJson.cs" />
     <Compile Include="Services\Common\Utils.cs" />
     <Compile Include="Services\Common\Version.cs" />
+    <Compile Include="Services\Display\Common\DisplayDefinitions.cs" />
+    <Compile Include="Services\Display\DisplayService.cs" />
+    <Compile Include="Services\Display\Interfaces\IDisplayService.cs" />
+    <Compile Include="Services\Display\Json\DisplayCapsResponseJson.cs" />
+    <Compile Include="Services\Display\Json\DisplayImageResponseJson.cs" />
+    <Compile Include="Services\Display\Response\DisplayCapsResponse.cs" />
+    <Compile Include="Services\Display\Response\DisplayImageResponse.cs" />
+    <Compile Include="Services\Display\Response\Entity\DisplayEntity.cs" />
     <Compile Include="Services\Interfaces\IEventArgs.cs" />
     <Compile Include="Services\IO\Common\IODefinitions.cs" />
     <Compile Include="Services\IO\Interfaces\IIOService.cs" />
@@ -144,7 +152,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\Audio\" />
-    <Folder Include="Services\Display\" />
     <Folder Include="Services\Email\" />
   </ItemGroup>
   <ItemGroup>
