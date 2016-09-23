@@ -83,6 +83,21 @@
     <Compile Include="Services\Logging\Reponse\LoggingPullResponse.cs" />
     <Compile Include="Services\Logging\Reponse\LoggingSubscribeResponse.cs" />
     <Compile Include="Services\Logging\Reponse\LoggingUnsubscribeResponse.cs" />
+    <Compile Include="Services\PhoneCall\Common\PhoneCallDefinitions.cs" />
+    <Compile Include="Services\PhoneCall\Interfaces\IPhoneCallService.cs" />
+    <Compile Include="Services\PhoneCall\Json\CallAnswerResponseJson.cs" />
+    <Compile Include="Services\PhoneCall\Json\CallDialResponseJson.cs" />
+    <Compile Include="Services\PhoneCall\Json\CallHangupResponseJson.cs" />
+    <Compile Include="Services\PhoneCall\Json\CallStatusResponseJson.cs" />
+    <Compile Include="Services\PhoneCall\Json\PhoneStatusResponseJson.cs" />
+    <Compile Include="Services\PhoneCall\PhoneCallService.cs" />
+    <Compile Include="Services\PhoneCall\Response\CallAnswerResponse.cs" />
+    <Compile Include="Services\PhoneCall\Response\CallDialResponse.cs" />
+    <Compile Include="Services\PhoneCall\Response\CallHangupResponse.cs" />
+    <Compile Include="Services\PhoneCall\Response\CallStatusResponse.cs" />
+    <Compile Include="Services\PhoneCall\Response\Entity\AccountEntity.cs" />
+    <Compile Include="Services\PhoneCall\Response\Entity\SessionEntity.cs" />
+    <Compile Include="Services\PhoneCall\Response\PhoneStatusResponse.cs" />
     <Compile Include="Services\Switch\Common\SwitchDefinitions.cs" />
     <Compile Include="Services\Switch\Interfaces\ISwitchService.cs" />
     <Compile Include="Services\Switch\Json\SwitchCapsResponseJson.cs" />
@@ -124,7 +139,6 @@
     <Folder Include="Services\Camera\" />
     <Folder Include="Services\Display\" />
     <Folder Include="Services\Email\" />
-    <Folder Include="Services\PhoneCall\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
