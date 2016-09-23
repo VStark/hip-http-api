@@ -74,6 +74,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Services\Audio\AudioTest.cs" />
     <Compile Include="Services\Camera\CameraTest.cs" />
     <Compile Include="Services\Display\DisplayTest.cs" />
     <Compile Include="Services\IO\IOTest.cs" />
