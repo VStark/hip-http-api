@@ -44,6 +44,7 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -73,6 +74,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Services\Camera\CameraTest.cs" />
     <Compile Include="Services\IO\IOTest.cs" />
     <Compile Include="Services\Logging\LoggingTest.cs" />
     <Compile Include="Services\PhoneCall\PhoneCallTest.cs" />
@@ -87,6 +89,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="Services\Camera\Data\CameraCaps.json" />
     <None Include="Services\IO\Data\IOCaps.json" />
     <None Include="Services\IO\Data\IOStatus.json" />
     <None Include="Services\Logging\Data\Caps.json" />
@@ -112,6 +115,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Services\Camera\Data\CameraSnapshot.jpg" />
     <Content Include="Services\System\Data\Config.xml" />
   </ItemGroup>
   <ItemGroup />

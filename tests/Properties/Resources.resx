@@ -124,6 +124,12 @@
   <data name="CallStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\services\phonecall\data\callstatus.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="CameraCaps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\services\camera\data\cameracaps.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CameraSnapshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\services\camera\data\camerasnapshot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Caps" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\services\logging\data\caps.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
