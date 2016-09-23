@@ -76,6 +76,11 @@
     <Compile Include="Services\Display\Response\DisplayCapsResponse.cs" />
     <Compile Include="Services\Display\Response\DisplayImageResponse.cs" />
     <Compile Include="Services\Display\Response\Entity\DisplayEntity.cs" />
+    <Compile Include="Services\Email\Common\EmailDefinitions.cs" />
+    <Compile Include="Services\Email\EmailService.cs" />
+    <Compile Include="Services\Email\Interfaces\IEmailService.cs" />
+    <Compile Include="Services\Email\Json\EmailSendResponseJson.cs" />
+    <Compile Include="Services\Email\Response\EmailSendResponse.cs" />
     <Compile Include="Services\Interfaces\IEventArgs.cs" />
     <Compile Include="Services\IO\Common\IODefinitions.cs" />
     <Compile Include="Services\IO\Interfaces\IIOService.cs" />
@@ -155,9 +160,7 @@
     <Compile Include="Services\System\Response\SystemStatusResponse.cs" />
     <Compile Include="Services\System\SystemService.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Services\Email\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
