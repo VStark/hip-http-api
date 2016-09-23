@@ -9,7 +9,6 @@ using Moq;
 using HIPHttpApi;
 using System.IO;
 
-
 namespace HIPHttpApiTest
 {
     public class CameraTest
