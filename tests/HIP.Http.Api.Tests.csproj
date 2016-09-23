@@ -75,6 +75,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Services\Camera\CameraTest.cs" />
+    <Compile Include="Services\Display\DisplayTest.cs" />
     <Compile Include="Services\IO\IOTest.cs" />
     <Compile Include="Services\Logging\LoggingTest.cs" />
     <Compile Include="Services\PhoneCall\PhoneCallTest.cs" />
@@ -90,6 +91,7 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="Services\Camera\Data\CameraCaps.json" />
+    <None Include="Services\Display\Data\DisplayCaps.json" />
     <None Include="Services\IO\Data\IOCaps.json" />
     <None Include="Services\IO\Data\IOStatus.json" />
     <None Include="Services\Logging\Data\Caps.json" />
